@@ -16,7 +16,7 @@
             Console.Write("Enter the price of your favorite book: ");
             double bookPrice = double.Parse(Console.ReadLine());
 
-
+             
 
             Console.WriteLine("Name: " + name);
             Console.WriteLine("Number of enrolled courses: " + numCourses);
@@ -24,7 +24,7 @@
 
 
             Console.WriteLine("\nPress Any key to exit...");
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
     }
 }
